@@ -1,0 +1,89 @@
+# --------------------
+# Logs
+# --------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --------------------
+# Frontend (React/Vite)
+# --------------------
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env
+
+# --------------------
+# Python/Backend
+# --------------------
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+.venv/
+.Python
+
+# Python package logs
+*.log
+
+# Hugging Face/ML model artifacts
+*.h5
+*.pt
+*.bin
+*.ckpt
+*.pkl
+*.tflite
+*.pb
+
+# Saved models and folders
+backend/cnn_model.h5
+backend/text_model/
+backend/image_model/
+*.model
+
+# --------------------
+# Jupyter
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# Editor settings
+# --------------------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.swp
+*.swo
+*.swn
+*.bak
+
+# --------------------
+# OS files
+# --------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --------------------
+# Misc
+# --------------------
+coverage/
+htmlcov/
+.cache/

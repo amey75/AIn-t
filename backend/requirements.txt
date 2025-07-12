@@ -1,0 +1,9 @@
+tensorflow==2.18.0
+transformers
+scikit-learn
+pandas
+numpy
+matplotlib
+tensorboard
+torch
+flask
