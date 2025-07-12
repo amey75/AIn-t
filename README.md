@@ -18,3 +18,4 @@ After encountering several AI-generated images that looked strikingly human-made
 cd backend
 pip install -r requirements.txt
 python app.py
+# AIn-t
